@@ -1,0 +1,24 @@
+buildscript {
+  repositories {
+    mavenCentral()
+    jcenter()
+  }
+
+  dependencies {
+    classpath 'com.android.tools.build:gradle:2.3.1'
+  }
+}
+
+allprojects {
+  group 'com.karthikeyanjkk'
+  version '2.3.0'
+  repositories {
+    mavenCentral()
+    jcenter()
+  }
+}
+
+ext {
+  compileSdkVersion = 25
+  buildToolsVersion = "25.0.2"
+}
